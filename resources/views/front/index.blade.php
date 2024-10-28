@@ -1,6 +1,6 @@
     @extends('layouts.front')
     @section('content')
-    
+
         <section class="s-content s-content--no-top-padding">
 
             <div class="s-bricks">
@@ -30,7 +30,7 @@
                                         <h1 class="entry__title"><a
                                                 href="{{ route('posts.view', $post->id) }}">{{ $post->title }}</a></h1>
 
-                                        <div class="entry__meta">
+                                        {{-- <div class="entry__meta">
                                             <span class="byline">By:
                                                 <span class='author'>
                                                     <a href="#">{{ $post->user->name }}</a>
@@ -39,7 +39,7 @@
                                             <span class="cat-links">
                                                 <a href="#">{{ optional($post->categories->first())->title }}</a>
                                             </span>
-                                        </div>
+                                        </div> --}}
                                     </div>
                                     <div class="entry__excerpt">
                                         <p>{{ $post->excerpt }}</p>
