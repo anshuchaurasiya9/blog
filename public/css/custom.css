@@ -1,0 +1,58 @@
+.text-center {
+    text-align: center;
+}
+.s-footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Dark theme styles */
+
+body {
+    background-color: #121212; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
+}
+
+.s-header {
+    background-color: #1f1f1f; /* Darker header background */
+    border-bottom: 1px solid #333; /* Subtle divider */
+}
+
+.s-header__logo a {
+    color: #e0e0e0; /* Light color for logo text */
+}
+
+.s-header__toggle-menu {
+    color: #e0e0e0;
+}
+
+footer.s-footer {
+    background-color: #1f1f1f;
+    color: #bdbdbd; /* Muted text color */
+}
+
+.ss-copyright {
+    color: #bdbdbd;
+}
+
+.s-footer__bottom a {
+    color: #81c784; /* Accent color for links */
+}
+
+a.smoothscroll svg path {
+    fill: #81c784; /* Accent color for the go-to-top arrow */
+}
+
+/* Preloader styling */
+#preloader #loader {
+    border-color: #81c784 transparent #81c784 transparent; /* Accent colors for preloader */
+}
+
+/* Link and icon colors */
+a {
+    color: #81c784; /* Accent link color */
+}
+
+a:hover {
+    color: #66bb6a;
+}
