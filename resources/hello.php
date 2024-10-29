@@ -1,4 +1,0 @@
-<?
-<echo "sdjhdgs"/>
-// hellow code
-?>
